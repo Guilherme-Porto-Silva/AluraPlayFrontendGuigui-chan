@@ -1,0 +1,95 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Conhecendo a linguagem Go | Hipsters.Talks",
+      "viewAmount": "3 mil",
+      "url": "y8FeZMv37WU",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 2,
+      "title": "Desmistificando mobile - Linguagens e Frameworks",
+      "viewAmount": "1,5 mil",
+      "url": "fmu1LQvZhms",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 3,
+      "title": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
+      "viewAmount": "30 mil",
+      "url": "jpuJ1qrluoU",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 4,
+      "title": "Linguagens e ferramentas usadas em Ciência de Dados...",
+      "viewAmount": "2,5 mil",
+      "url": "h83e1aAM5xQ",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 5,
+      "title": "Reencontrando a paixão por programar: Beatriz Ramerindo",
+      "viewAmount": "1,2 mil",
+      "url": "CnB3eLTrkn4",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 6,
+      "title": "Híbridos: Flutter e React Native | Desmistificando..",
+      "viewAmount": "1,6 mil",
+      "url": "vf9P_PycgRw",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 7,
+      "title": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
+      "viewAmount": "3,2 mil",
+      "url": "Nts3P35mHzE",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 8,
+      "title": "baNaNa | Memes do JavaScript #2",
+      "viewAmount": "1,2 mil",
+      "url": "HBVCsBtsmzA",
+      "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "title": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
+      "viewAmount": "1 mil",
+      "url": "z43rcfjXOxU",
+      "image": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 9
+    },
+    {
+      "title": "Educação coorporativa",
+      "viewAmount": "9 mil",
+      "url": "IGFSiBJIXFQ",
+      "image": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 10
+    },
+    {
+      "title": "Educação coorporativa",
+      "viewAmount": "4 mil",
+      "url": "IGFSiBJIXFQ",
+      "image": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 11
+    },
+    {
+      "title": "Educação coorporativa",
+      "viewAmount": "7 mil",
+      "url": "IGFSiBJIXFQ",
+      "image": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 12
+    },
+    {
+      "title": "Poseidon era bão de engenharia não kkkk",
+      "viewAmount": "2,47 milhões de",
+      "url": "ndtHxw6qgc4?si=0ZY_P7m_ZZD9p1at",
+      "image": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 13
+    }
+  ]
+}
