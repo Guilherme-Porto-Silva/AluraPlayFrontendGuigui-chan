@@ -1,0 +1,39 @@
+:root {/* Palette */
+    --darkBlue: #154580;
+    --mediumBlue: #3970be;
+    --lightBlue: #e5f1ff;
+    --textGray: #444444;
+    --lightGray: #ececec;
+}
+
+body {
+    background-color: var(--lightBlue);
+    color: white;
+}
+
+nav { background-color: white; }
+
+nav input, nav button { border-color: rgb(211, 211, 211); }
+
+nav input { color: var(--darkBlue); }
+
+nav button { background-color: #f9f9f9; }
+
+ul { color: black; }
+
+li > div > h3, li > div > span {
+    color: var(--textGray);
+}
+
+form label, h3, h2 { color: var(--mediumBlue); }
+
+form div input { color: black; }
+
+input[type="submit"] {
+    background-color: var(--darkBlue);
+    color: inherit;/* inherits the white from body */
+}
+
+.homePageAnchor:hover, .uploadPageAnchor:hover, .homePageAnchor:focus, .uploadPageAnchor:focus{
+    border-color: var(--mediumBlue);
+}

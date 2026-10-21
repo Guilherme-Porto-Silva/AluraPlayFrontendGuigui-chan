@@ -10,13 +10,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/structure.css">
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/colors.css">
 
-    <link rel="stylesheet" href="../css/form.css">
-
-    <link rel="stylesheet" href="../css/flexbox.css">
+    <link rel="stylesheet" href="../css/reaction.css">
 
     <title>AluraPlay</title>
 
@@ -27,52 +25,47 @@
 
     <header>
 
-        <nav class="cabecalho">
+        <nav>
 
-            <a class="logo" href="../index.html"></a>
+            <a href="../index.html" class="homePageAnchor"></a>
 
-            <div class="cabecalho__icones">
-
-                <a href="./enviar-video.html" class="cabecalho__videos"></a>
-
-            </div>
+            <a href="./send-video.html" class="uploadPageAnchor"></a>
 
         </nav>
 
     </header>
 
-    <main class="container">
+    <main>
 
-        <form class="container__formulario" data-form>
+        <form data-form>
 
-            <h2 class="formulario__titulo">Envie um vídeo!</h3>
+            <h2>Envie um vídeo!</h3>
 
-                <div class="formulario__campo">
+            <div>
 
-                    <label class="campo__etiqueta" for="url">Link embed</label>
+                <label for="url">Endereço do vídeo</label>
 
-                    <input data-url name="url" class="campo__escrita" required placeholder="Por exemplo: https://www.youtube.com/embed/FAY1K2aUg5g" id="url"/>
+                <input data-url name="url" required placeholder="Por exemplo: https://www.youtube.com/embed/FAY1K2aUg5g" id="url"/>
 
-                </div>
+            </div>
 
+            <div>
 
-                <div class="formulario__campo">
+                <label for="title">Titulo do vídeo</label>
 
-                    <label class="campo__etiqueta" for="titulo">Titulo do vídeo</label>
+                <input data-title id="title" name="title" required placeholder="Neste campo, dê o nome do vídeo"/>
 
-                    <input data-title name="titulo" class="campo__escrita" required placeholder="Neste campo, dê o nome do vídeo" id="titulo"/>
+            </div>
 
-                </div>
+            <div>
 
-                <div class="formulario__campo">
+                <label for="image">Imagem de perfil</label>
 
-                    <label class="campo__etiqueta" for="imagem">Imagem de perfil</label>
+                <input data-image id="image" name="image" required placeholder="Insira a url da imagem"/>
 
-                    <input data-image name="imagem" class="campo__escrita" required placeholder="Insira a url da imagem" id="imagem"/>
+            </div>
 
-                </div>
-
-                <input data-button class="formulario__botao" type="submit"/>
+            <input data-button type="submit"/>
 
         </form>
 
@@ -80,7 +73,7 @@
 
     <script>
 
-        import { createVideo } from "./createVideos.js";
+        import { createVideo } from "./../js/createVideos.js";
 
         document.querySelector("[data-form]").addEventListener("submit", (submit) => { createVideo(submit); });
 

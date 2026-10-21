@@ -1,6 +1,6 @@
 import { Videos } from "./listVideos.js";
 
-import { buildCard } from "./showVideos.js";
+import { Show } from "./showVideos.js";
 
 const searchBar = document.getElementById("pesquisar");
 
@@ -28,6 +28,6 @@ export async function search (triggerEvent) {
 
     else searchedVideo.array.forEach(element => {
 
-        list.appendChild(buildCard(element));
+        list.appendChild(Show.buildCard(element));
     });
 }

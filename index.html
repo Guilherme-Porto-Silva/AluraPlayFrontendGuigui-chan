@@ -10,11 +10,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/structure.css">
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/colors.css">
 
-    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="./css/reaction.css">
 
     <title>AluraPlay</title>
     
@@ -27,21 +27,21 @@
 
     <header>
 
-        <nav class="cabecalho">
+        <nav>
 
-            <a class="logo" href="./index.html"></a>
+            <a href="./index.html" class="logoLink"></a>
 
-            <div class="cabecalho__pesquisar">
+            <div>
 
-                <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                <input type="search" placeholder="Pesquisar" id="searchInput">
 
-                <button class="pesquisar__botao" data-search-button>
+                <button data-search-button>
 
             </div>
 
-            <div class="cabecalho__icones">
+            <div>
 
-                <a href="./pages/enviar-video.html" class="cabecalho__videos"></a>
+                <a href="./pages/send-video.html" class="uploadPageAnchor"></a>
 
             </div>
 
@@ -49,13 +49,17 @@
 
     </header>
 
-    <ul class="videos__container" alt="videos alura" data-list></ul>
+    <ul alt="videos alura" data-list></ul>
 
     <script>
 
-        import { search } from "./search.js";
+        import { search } from "./js/search.js";
 
         document.querySelector("[data-search-button]").addEventListener("click", (click) => { search(click); });
+
+        import { Show } from "./showVideos.js";
+
+        document.addEventListener("DOMContentLoaded", () => { Show.listVideos(); });
 
     </script>
 

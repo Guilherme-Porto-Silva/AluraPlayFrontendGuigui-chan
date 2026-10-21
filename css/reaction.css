@@ -1,0 +1,14 @@
+@media (min-width: 834px) {
+    
+    ul {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .videoCard{
+        width: 288px;
+    }
+}

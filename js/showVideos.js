@@ -4,11 +4,11 @@ const list = document.querySelector("[data-list]");
 
 const youTubeEmbed = "https://www.youtube.com/embed/";
 
-export default function buildCard (videoJSON) {
+function buildCard (videoJSON) {
 
     const video = document.createElement("li");
 
-    video.classList.add("videos__item");
+    video.classList.add("videoCard");
 
     video.innerHTML = `<iframe
                             width="100%" height="72%" src="${youTubeEmbed}${videoJSON.url}"
@@ -48,4 +48,4 @@ async function listVideos () {
     }
 }
 
-document.addEventListener("DOMContentLoaded", listVideos);
+export const exportedFunctions = { buildCard, listVideos };

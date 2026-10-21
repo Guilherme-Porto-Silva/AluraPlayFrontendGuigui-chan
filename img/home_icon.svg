@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-label="Home page link">
+  <defs>
+    <style>
+      .home-icon {
+        fill: none;
+        stroke: #154580; /* Matches --darkBlue from CSS */
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transition: stroke 0.2s ease-in-out;
+      }
+      .home-icon:hover {
+        stroke: #3970be; /* Matches --mediumBlue on hover */
+      }
+      .door-fill {
+        fill: #3970be;
+      }
+    </style>
+  </defs>
+
+  <path class="home-icon" d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10.5z" />
+
+  <path class="home-icon door-fill" d="M9 21V14a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v7" />
+</svg>
